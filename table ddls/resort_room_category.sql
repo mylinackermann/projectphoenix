@@ -1,0 +1,27 @@
+CREATE TABLE [dbo].[resort_room_category]
+(
+[RESORT] varchar(100),
+[ROOM_CATEGORY] int,
+[ROOM_CLASS] varchar(100),
+[RATE_CODE] varchar(100),
+[NUMBER_ROOMS] int,
+[SHORT_DESCRIPTION] varchar(100),
+[PSUEDO_ROOM_TYPE] varchar(100),
+[ACTIVE_DATE] varchar(100),
+[INACTIVE_DATE] varchar(100),
+[REPLACES_CATEGORY] varchar(100),
+[RATE_CATEGORY] varchar(100),
+[GENERIC_FLAG] varchar(100),
+[SUITE_YN] varchar(100),
+[LABEL] varchar(100),
+[MEETINGROOM_YN] varchar(100),
+[PSEUDO_YN] varchar(100),
+[YIELDABLE_YN] varchar(100),
+[YIELD_CATEGORY] varchar(100),
+[OWNER_YN] varchar(100),
+[INITIAL_ROUND_UP] varchar(100),
+[SALES_FLAG] varchar(100),
+[UPSELL_YN] varchar(100),
+[INSERT_DATE] date,
+[UPDATE_DATE] date
+);
