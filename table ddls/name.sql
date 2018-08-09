@@ -2,7 +2,7 @@ CREATE TABLE [dbo].[name]
 (
 [OPERA_BATCH_CD] varchar(100),
 [NAME_ID] int,
-[NAME_CODE] int,
+[NAME_CODE] varchar(100),
 [REPEAT_GUEST_ID] varchar(100),
 [FOLLOW_ON] varchar(100),
 [BUSINESS_TITLE] varchar(100),
